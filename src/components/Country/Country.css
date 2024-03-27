@@ -1,0 +1,8 @@
+
+.country{
+    border: 3px solid skyblue;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: lightgray;
+}

@@ -5,7 +5,7 @@ import Countries from './components/countries/Countries'
 function App() {
   return (
     <>
-      <h2>React-World-Tour</h2>
+      <h2>React-Awesome-World-Tour</h2>
       <Countries></Countries>
     </>
   )

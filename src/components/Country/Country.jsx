@@ -16,8 +16,8 @@ const Country = ({country, handleVisitedCountry, handleVisitedFlags}) => {
             <div className={`country ${visited ? 'visited' : 'not-visited'}`}>
                 <h4 style={{color: visited ? 'purple' : ''}}>Name: {name?.common} </h4>
                 <img src={flags?.png} alt="" />
-                <p>Population: {population} </p>
-                <p>Area: {area} </p>
+                <p>CountryPopulation: {population} </p>
+                <p>CountryArea: {area} </p>
                 <p><small>Code: {cca3} </small> </p>
                 <div className='btn-container'>
                     <button style={{marginBottom: '5px'}} onClick={() => handleVisitedCountry(country)}><small>Mark Visited</small></button>

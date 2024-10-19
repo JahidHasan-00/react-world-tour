@@ -4,10 +4,15 @@
 }
 .flags-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .flags-container img{
     width: 200px;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid skyblue;
 }
 
 @media screen and (max-width: 480px) {

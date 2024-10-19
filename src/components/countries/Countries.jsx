@@ -40,7 +40,7 @@ const Countries = () => {
             <br />
             <div className="flags-container">
                 {
-                    visitedFlags.map(flag => <img style={{marginRight: '20px', marginBottom: '20px'}} key={flag} src={flag}></img>)
+                    visitedFlags.map(flag => <div key={flag} style={{marginBottom: '15px'}}><img  src={flag}></img></div>)
                 }
             </div>
             <br />
